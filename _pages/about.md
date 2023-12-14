@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>Room 3661, HKUST</p>
-    <p>Clear Water Bay, Kowloon</p>
-    <p>Hong Kong SAR, China</p>
+    <p>Clear Water Bay</p>
+    <p>Kowloon, Hong Kong SAR, China</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
