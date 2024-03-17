@@ -2,96 +2,73 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Xinchen Wan (万鑫晨)
     - name: Languages
-      value: English, German
+      value: Mandarin, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D Candidate
+      institution: Hong Kong University of Science and Technology
+      year: 2018.09 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Major in Computer Science and Engineering, CSE department.
+        - Advised by Prof. Kai Chen in iSING lab.
+    - title: B.Eng
+      institution: Huazhong University of Science and Technology (HUST)
+      year: 2014.09 - 2018.06
       description:
-        - Description 1.
-        - Description 2.
+        - Major in Computer Science and Technology, School of Computer Science.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern
+      institution: Bytedance, Hardware Acceleration Group
+      year: 2021.11 - 2023.08
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Advised by Dr. [Layong Luo](https://luolayong.com/)
+        - Research on the topic of AI interconnect network and Message-level In-Network Computing (MINC) platform.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: 2019 Fall-2021 Spring
+      items:
+        - Teaching Assistant Coordinator at HKUST CSE
+    - year: 2019 Spring
+      items:
+        - Teaching Assistant of COMP1022Q at HKUST
+
+- title: Academic Talks
+  type: time_table
+  contents:
+    - year: 2023
+      items:
+        - Scalable and Efficient Full-Graph GNN Training for Large Graphs
+        - SIGMOD’23, Seattle, WA, USA, June 2023
+    - year: 2022
+      items:
+        - "DGS: Communication-Efficient Graph Sampling for Distributed GNN Training"
+        - ICNP’22, Online, Nov 2022
+    - year: 2020
+      items:
+        - Rat-resilient allreduce tree for distributed DNN training
+        - APNet’20, Online, Aug 2020
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - year: 2018 - now
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Postgraduate Studentship, HKUST
+    - year: 2017
+      items:
+        - National Scholarship, Ministry of Education of PRC
+    - year: 2016
+      items:
+        - Learning Excellence Scholarship (Top 2 students in CS department), HUST
+    - year: 2015
+      items:
+        - Outstanding Student Cadres Scholarship, HUST
