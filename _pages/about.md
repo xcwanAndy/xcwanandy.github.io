@@ -19,6 +19,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D candidate in [Hong Kong University of Science and Technology (HKUST)](https://www.ust.hk/), advised by [Prof. Kai Chen](http://www.cse.ust.hk/~kaichen/). Before that, I received my B.Eng in Computer Science in [Huazhong University of Science and Technology (HUST)](https://hust.edu.cn/) in 2018. 
+I obtained my Ph.D. degree in Computer Science and Engineering from Hong Kong University of Science and Technology in 2025, supervised by [Prof. Kai Chen](http://www.cse.ust.hk/~kaichen/). Before that, I received my B.Eng degree in Computer Science from Huazhong University of Science and Technology in 2018. 
 
 My research interests include distributed machine learning system, data center networking, and hardware acceleration.
