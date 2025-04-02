@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: CSE PhD, HKUST, Hong Kong SAR, China
+subtitle:  PhD, HKUST, Hong Kong SAR, China
 
 profile:
   align: right
