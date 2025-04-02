@@ -5,7 +5,7 @@ permalink: /
 subtitle:  PhD, HKUST, Hong Kong SAR, China
 
 profile:
-  align: right
+  align: left
   image: self1.jpeg
   image_circular: false # crops the image to make it circular
   # address: >
