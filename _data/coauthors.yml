@@ -1,34 +1,91 @@
-"wang":
+"Wang":
   - firstname: ["Hao"]
     url: https://whwh1996.github.io
 
-"zeng":
+  - firstname: ["Zilong"]
+    url: https://egoinside.github.io/
+
+  - firstname: ["Weiyan"]
+    url: https://weiyan-wang.github.io/
+
+"Zeng":
   - firstname: ["Chaoliang"]
     url: https://hydrazeng.github.io
 
-"tian":
+  - firstname: ["Gaoxiong"]
+    url: https://gaoxiong.site/
+
+"Tian":
   - firstname: ["Han"]
     url: https://tianhan4.github.io
 
-"wan":
-  - firstname: ["Xinchen"]
-    url: https://xcwanandy.github.io
-
-"zhang":
+"Zhang":
   - firstname: ["Junxue"]
     url: https://snowzjx.me
 
-"jin":
+  - firstname: ["Hong"]
+    url: https://hongzhangblaze.github.io/
+  
+  - firstname: ["Yiming"]
+    url: http://nicexlab.com/zym.htm
+
+"Jin":
   - firstname: ["Yilun"]
     url: https://kl4805.github.io
 
   - firstname: ["Xin"]
     url: https://xinjin.github.io
 
-"chen":
+"Chen":
   - firstname: ["Kai"]
     url: http://www.cse.ust.hk/~kaichen/
 
-"zhong":
-  - firstname: ["Zhizhen"]
-    url: https://zhizhenzhong.com/
+  - firstname: ["Jingrong"]
+    url: https://cjr.host/
+
+"Liao":
+  - firstname: ["Xudong"]
+    url: https://xudongliao.github.io/
+
+"Bai":
+  - firstname: ["Wei"]
+    url: https://baiwei0427.github.io/
+
+"Jiang":
+  - firstname: ["Junchen"]
+    url: https://people.cs.uchicago.edu/~junchenj/
+
+"Hu":
+  - firstname: ["Shuihai"]
+    url: https://shuihaihu.github.io/
+
+"Luo":
+  - firstname: ["Layong"]
+    url: https://luolayong.com/
+
+"Guo":
+  - firstname: ["Chuanxiong"]
+    url: https://sysnetome.com/
+
+"Li":
+  - firstname: ["Wenxue"]
+    url: https://leewxgit.github.io/index.html
+  
+  - firstname: ["Luyang"]
+    url: https://liluyang.com.cn/
+
+"Xu":
+  - firstname: ["Kaiqiang"]
+    url: https://kqxu.com/
+
+"Ren":
+  - firstname: ["Zhenghang"]
+    url: https://home.cse.ust.hk/~zrenak/
+
+"Liu":
+  - firstname: ["Guyue"]
+    url: https://grace-liu.github.io/
+
+"Huang":
+  - firstname: ["Xinyang"]
+    url: https://huangxyminel.netlify.app/

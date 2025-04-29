@@ -2,100 +2,73 @@
   type: map
   contents:
     - name: Full Name
-      value: Xudong Liao (廖旭东)
+      value: Xinchen Wan (万鑫晨)
     - name: Languages
       value: Mandarin, English
 
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D
+    - title: Ph.D Candidate
       institution: Hong Kong University of Science and Technology
-      year: 2020.8 - now
+      year: 2018.09 - now
       description:
-        - Major in Computer Science, CSE department.
+        - Major in Computer Science and Engineering, CSE department.
         - Advised by Prof. Kai Chen in iSING lab.
     - title: B.Eng
-      institution: Wuhan University
-      year: 2016.9 - 2020.6
+      institution: Huazhong University of Science and Technology (HUST)
+      year: 2014.09 - 2018.06
       description:
-        - Major in Software Engineering, School of Computer Science.
-        - Won Outstanding Graduate.（武汉大学优秀毕业生）
+        - Major in Computer Science and Technology, School of Computer Science.
 
 - title: Experience
   type: time_table
   contents:
-    - title: UG Research Intern
-      institution: iSING Lab, HKUST
-      year: 2019.11 - 2020.6
+    - title: Research Intern
+      institution: Bytedance, Hardware Acceleration Group
+      year: 2021.11 - 2023.08
       description:
-        - Advised by Prof. Kai Chen
-        - Research on the topic of "Multi-objective congestion control".
-    - title: UG Research Assistant
-      institution: Wuhan University
-      year: 2019.3 - 2019.11
-      description:
-        - Advised by Prof. Yanjiao Chen
-        - Research on the topic of "Deep reinforcement learning based Internet congestion control".
+        - Advised by <a href="https://luolayong.com/">Dr. Layong Luo</a>
+        - Research on the topic of AI interconnect network and Message-level In-Network Computing (MINC) platform.
 
 - title: Teaching Experience
   type: time_table
   contents:
-    - year: 2023 Fall
+    - year: 2019 Fall-2021 Spring
       items:
-        - TA of COMP2611 Computer Organization, HKUST
-    - year: 2023 Spring
+        - Teaching Assistant Coordinator at HKUST CSE
+    - year: 2019 Spring
       items:
-        - TA of COMP3511 Operating System, HKUST
-    - year: 2022 Spring
-      items:
-        - TA of COMP3511 Operating System, HKUST
-    - year: 2021 Spring
-      items:
-        - TA of COMP3511 Operating System, HKUST
+        - Teaching Assistant of COMP1022Q at HKUST
 
-- title: Academic Services
+- title: Academic Talks
   type: time_table
   contents:
-    - year: 2025
-      items:
-        - TON Reviewer
-        - NSDI'25 Review Helper
     - year: 2023
       items:
-        - Web chair of 7th Asia-Pacific Workshop on Networking (APNet'23)
+        - Scalable and Efficient Full-Graph GNN Training for Large Graphs
+        - SIGMOD’23, Seattle, WA, USA, June 2023
     - year: 2022
       items:
-        - CoNEXT'22 Review Helper
-        - APNet'22 Review Helper
-    - year: 2021
+        - "DGS: Communication-Efficient Graph Sampling for Distributed GNN Training"
+        - ICNP’22, Online, Nov 2022
+    - year: 2020
       items:
-        - INFOCOM'22 Review Helper
+        - Rat-resilient allreduce tree for distributed DNN training
+        - APNet’20, Online, Aug 2020
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2024
-      items:
-        - EuroSys 2024 Travel Grant, ACM SIGOPS
-        - NSDI 2024 Travel Grant, USENIX Association
-    - year: 2020
+    - year: 2018 - now
       items:
         - Postgraduate Studentship, HKUST
-    - year: 2020
-      items:
-        - Outstanding Graduate, Wuhan University
-    - year: 2019
-      items:
-        - Yi. scholarship, Wuhan University
-    - year: 2018
-      items:
-        - Yi. scholarship, Wuhan University
     - year: 2017
       items:
-        - Yi. scholarship, Wuhan University
-
-- title: Other Interests
-  type: list
-  contents:
-    - League of Legends, hiking
+        - National Scholarship, Ministry of Education of PRC
+    - year: 2016
+      items:
+        - Learning Excellence Scholarship (Top 2 students in CS department), HUST
+    - year: 2015
+      items:
+        - Outstanding Student Cadres Scholarship, HUST

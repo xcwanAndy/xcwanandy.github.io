@@ -1,162 +1,173 @@
----
----
-
-@article{mfabric-arxiv,
-  abbr     = {arXiv},
-  title    = {mFabric: An Efficient and Scalable Fabric for Mixture-of-Experts Training},
-  author   = {Liao, Xudong and Sun, Yijun and Tian, Han and Wan, Xinchen and Jin, Yilun and Wang, Zilong and Ren, Zhenghang and Huang, Xinyang and Li, Wenxue and Tse, Kin Fai and Zhong, Zhizhen and Liu, Guyue and Zhang, Ying and Ye, Xiaofeng and Zhang, Yiming and Chen, Kai},
-  year     = {2025},
-  journal  = {arXiv:2501.03905},
-  url      = {https://arxiv.org/abs/2501.03905},
-  pdf      = {mfabric-arxiv.pdf},
-  selected = {true},
-  abstract = {Mixture-of-Expert (MoE) models outperform conventional models by selectively activating different subnets, named experts, on a per-token basis. This gated computation generates dynamic communications that cannot be determined beforehand, challenging the existing GPU interconnects that remain static during the distributed training process. In this paper, we advocate for a first-of-its-kind system, called mFabric, that unlocks topology reconfiguration during distributed MoE training. Towards this vision, we first perform a production measurement study and show that the MoE dynamic communication pattern has strong locality, alleviating the requirement of global reconfiguration. Based on this, we design and implement a regionally reconfigurable high-bandwidth domain on top of existing electrical interconnects using optical circuit switching (OCS), achieving scalability while maintaining rapid adaptability. We have built a fully functional mFabric prototype with commodity hardware and a customized collective communication runtime that trains state-of-the-art MoE models with in-training topology reconfiguration across 32 A100 GPUs. Large-scale packet-level simulations show that mFabric delivers comparable performance as the non-blocking fat-tree fabric while boosting the training cost efficiency (e.g., performance per dollar) of four representative MoE models by 1.2x--1.5x and 1.9x--2.3x at 100 Gbps and 400 Gbps link bandwidths, respectively.}
-}
-
-@inproceedings{fuseline-osdi,
-  abbr      = {OSDI},
-  title     = {Enabling Efficient GPU Communication over Multiple NICs with FuseLink},
-  author    = {Ren, Zhenghang and Li, Yuxuan and Wang, Zilong and Huang, Xinyang and Li, Wenxue and Xu, Kaiqiang and Liao, Xudong and Sun, Yijun and Liu, Bowen and Tian, Han and Zhang, Junxue and Wang, Mingfei and Zhong, Zhizhen and Liu, Guyue and Zhang, Ying and Chen, Kai},
-  booktitle = {Proceedings of the 19th USENIX Symposium on Operating Systems Design and Implementation},
-  series    = {OSDI 2025},
+@inproceedings{li2025harmonia,
+  abbr      = {__ASPLOS__},
+  title     = {Harmonia: A Unified Framework for Heterogeneous FPGA Acceleration in the Cloud},
+  author    = {Li, Luyang and Pan, Heng and Wan, Xinchen and Lv, Kai and Wang, Zilong and Zhao, Qian and Ning, Feng and Ning, Qingsong and Zhang, Shideng and Li, Zhenyu and Luo, Layong and Xie, Gaogang},
+  Author+an = {3=highlight},
+  booktitle = {Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems},
+  series    = {ASPLOS 2025},
+  pdf       = {https://xcwanAndy.github.io/papers/2025/harmonia-asplos25.pdf},
   selected  = {true},
   year      = {2025}
 }
 
 @inproceedings{wan2025leo,
-  abbr      = {INFOCOM},
+  abbr      = {__INFOCOM__},
   title     = {A Generic and Efficient Communication Framework for Message-level In-Network Computing},
   author    = {Wan, Xinchen and Li, Luyang and Tian, Han and Liao, Xudong and Huang, Xinyang and Zeng, Chaoliang and Wang, Zilong and Yang, Xinyu and Cheng, Ke and Ning, Qingsong and Liu, Guyue and Luo, Layong and Chen, Kai},
+  Author+an = {1=highlight},
   booktitle = {Proceedings of the IEEE International Conference on Computer Communications},
   series    = {INFOCOM 2025},
-  pdf       = {leo-infocom25.pdf},
+  pdf       = {https://xcwanAndy.github.io/papers/2025/leo-infocom25.pdf},
   selected  = {true},
   year      = {2025}
 }
 
 @inproceedings{xu2025tacc,
-  abbr      = {ASPLOS},
+  abbr      = {__ASPLOS__},
   title     = {Design and Operation of Shared Machine Learning Clusters on Campus},
   author    = {Xu, Kaiqiang and Sun, Decang and Wang, Hao and Ren, Zhenghang and Wan, Xinchen and Liao, Xudong and Wang, Zilong and Zhang, Junxue and Chen, Kai},
+  Author+an = {7=highlight},
   booktitle = {Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems},
   series    = {ASPLOS 2025},
+  pdf       = {https://xcwanAndy.github.io/papers/2025/sing-asplos25.pdf},
+  selected  = {true},
   year      = {2025}
 }
 
-@inproceedings{jury-eurosys,
-  abbr      = {EuroSys},
+@inproceedings{tian2025jury,
+  abbr      = {__EuroSys__},
   title     = {Achieving Fairness Generalizability for Learning-based Congestion Control with Jury},
   author    = {Tian, Han and Liao, Xudong and Sun, Decang and Zeng, Chaoliang and Jin, Yilun and Zhang, Junxue and Wan, Xinchen and Wang, Zilong and Wang, Yong and Chen, Kai},
+  Author+an = {7=highlight},
   booktitle = {Proceedings of the 20th ACM European Conference on Computer Systems},
   series    = {EuroSys 2025},
-  pdf       = {jury-eurosys25.pdf},
+  pdf       = {https://xcwanAndy.github.io/papers/2025/jury-eurosys25.pdf},
   selected  = {true},
   year      = {2025}
 }
 
-@inproceedings{astraea-eurosys,
-  abbr      = {EuroSys},
+@inproceedings{wang2024tassel,
+  abbr      = {__SIGCOMM__},
+  title     = {Fast, Scalable, and Accurate Rate Limiter for RDMA NICs},
+  author    = {Wang, Zilong and Wan, Xinchen and Li, Luyang and Sun, Yijun and Xie, Peng and Wei, Xin and Ning, Qingsong and Zhang, Junxue and Chen, Kai},
+  Author+an = {2=highlight},
+  booktitle = {Proceedings of the ACM Special Interest Group on Data Communication},
+  series    = {SIGCOMM 2024},
+  pdf       = {https://xcwanAndy.github.io/papers/2024/tassel-sigcomm24.pdf},
+  selected  = {true},
+  year      = {2024}
+}
+
+@inproceedings{liao2024astraea,
+  abbr      = {__EuroSys__},
   title     = {Astraea: Towards Fair and Efficient Learning-based Congestion Control},
-  author    = {Liao*, Xudong and Tian*, Han and Zeng, Chaoliang and Wan, Xinchen and Chen, Kai},
+  author    = {Liao, Xudong and Tian, Han and Zeng, Chaoliang and Wan, Xinchen and Chen, Kai},
+  Author+an = {4=highlight},
   booktitle = {Proceedings of the 19th ACM European Conference on Computer Systems},
-  selected  = {true},
   series    = {EuroSys 2024},
-  year      = {2024},
-  arxiv     = {2403.01798},
-  pdf       = {astraea-eurosys24.pdf},
-  code      = {https://github.com/HKUST-SING/astraea},
-  abstract  = {Recent years have witnessed a plethora of learning-based solutions for congestion control (CC) that demonstrate better performance over traditional TCP schemes. However, they fail to provide consistently good convergence properties, including fairness, fast convergence and stability, due to the mismatch between their objective functions and these properties. Despite being intuitive, integrating these properties into existing learning-based CC is challenging, because: 1) their training environments are designed for the performance optimization of single flow but incapable of cooperative multi-flow optimization, and 2) there is no directly measurable metric to represent these properties into the training objective function. We present Astraea, a new learning-based congestion control that ensures fast convergence to fairness with stability. At the heart of Astraea is a multi-agent deep reinforcement learning framework that explicitly optimizes these convergence properties during the training process by enabling the learning of interactive policy between multiple competing flows, while maintaining high performance. We further build a faithful multi-flow environment that emulates the competing behaviors of concurrent flows, explicitly expressing convergence properties to enable their optimization during training. We have fully implemented Astraea and our comprehensive experiments show that Astraea can quickly converge to fairness point and exhibit better stability than its counterparts. For example, Astraea achieves near-optimal bandwidth sharing (i.e., fairness) when multiple flows compete for the same bottleneck, delivers up to 8.4x faster convergence speed and 2.8x smaller throughput deviation, while achieving comparable or even better performance over prior solutions.}
+  pdf       = {https://xcwanAndy.github.io/papers/2024/astraea-eurosys24.pdf},
+  selected  = {true},
+  year      = {2024}
 }
 
-@inproceedings{herald-nsdi,
-  abbr      = {NSDI},
+@inproceedings{zeng2024herald,
+  abbr      = {___NSDI___},
   title     = {Accelerating Neural Recommendation Training with Embedding Scheduling},
-  author    = {Zeng*, Chaoliang and Liao*, Xudong and Cheng, Xiaodian and Tian, Han and Wan, Xinchen and Wang, Hao and Chen, Kai},
+  author    = {Zeng, Chaoliang and Liao, Xudong and Cheng, Xiaodian and Tian, Han and Wan, Xinchen and Wang, Hao and Chen, Kai},
+  Author+an = {5=highlight},
   booktitle = {Proceedings of the 21st USENIX Symposium on Networked Systems Design and Implementation},
-  selected  = {true},
   series    = {NSDI 2024},
-  year      = {2024},
-  code      = {https://github.com/HKUST-SING/herald},
-  pdf       = {herald-nsdi24.pdf},
-  abstract  = {Deep learning recommendation models (DLRM) are extensively adopted to support many online services. Typical DLRM training frameworks adopt the parameter server (PS) in CPU servers to maintain memory-intensive embedding tables, and leverage GPU workers with embedding cache to accelerate compute-intensive neural network computation and enable fast embedding lookups. However, such distributed systems suffer from significant communication overhead caused by the embedding transmissions between workers and PS. Prior work reduces the number of cache embedding transmissions by compromising model accuracy, including oversampling hot embeddings or applying staleness-tolerant updates. This paper reveals that many of such transmissions can be avoided given the predictability and infrequency natures of in-cache embedding accesses in distributed training. Based on this observation, we explore a new direction to accelerate distributed DLRM training without compromising model accuracy, i.e., embedding scheduling---with the core idea of proactively determining {"where embeddings should be trained"} and {"which embeddings should be synchronized"} to increase the cache hit rate and decrease unnecessary updates, thus achieving a low communication overhead. To realize this idea, we design Herald, a real-time embedding scheduler consisting of two main components: an adaptive location-aware inputs allocator to determine where embeddings should be trained and an optimal communication plan generator to determine which embeddings should be synchronized. Our experiments with real-world workloads show that Herald reduces $48\%$-$89\%$ embedding transmissions, leading up to 2.11x and up to 1.61x better performance with TCP and RDMA, respectively, over 100 Gbps Ethernet for end-to-end DLRM training.}
+  pdf       = {https://xcwanAndy.github.io/papers/2024/herald-nsdi24.pdf},
+  selected  = {true},
+  year      = {2024}
 }
 
-@inproceedings{wan2023g3,
-  abbr      = {SIGMOD},
-  title     = {Scalable and Efficient Full-Graph GNN Training for Large Graphs},
-  author    = {Wan, Xinchen and Xu, Kaiqiang and Liao, Xudong and Jin, Yilun and Chen, Kai and Jin, Xin},
-  booktitle = {Proceedings of the ACM on Management of Data},
-  pdf       = {g3-sigmod23.pdf},
+@inproceedings{wang2024mlt,
+  abbr      = {___NSDI___},
+  title     = {Towards Domain-Specific Network Transport for Distributed DNN Training},
+  author    = {Wang, Hao and Tian, Han and Chen, Jingrong and Wan, Xinchen and Xia, Jiacheng and Zeng, Gaoxiong and Bai, Wei and Jiang, Junchen and Wang, Yong and Chen, Kai},
+  Author+an = {4=highlight},
+  booktitle = {Proceedings of the 21st USENIX Symposium on Networked Systems Design and Implementation},
+  series    = {NSDI 2024},
+  pdf       = {https://xcwanAndy.github.io/papers/2024/mlt-nsdi24.pdf},
   selected  = {true},
-  abstract  = {Graph Neural Networks (GNNs) have emerged as powerful tools to capture structural information from graph-structured data, achieving state-of-the-art performance on applications such as recommendation, knowledge graph, and search. Graphs in these domains typically contain hundreds of millions of nodes and billions of edges. However, previous GNN systems demonstrate poor scalability because large and interleaved computation dependencies in GNN training cause significant overhead in current parallelization methods. We present G3, a distributed system that can efficiently train GNNs over billion-edge graphs at scale. G3 introduces GNN hybrid parallelism which synthesizes three dimensions of parallelism to scale out GNN training by sharing intermediate results peer-to-peer in fine granularity, eliminating layer-wise barriers for global collective communication or neighbor replications as seen in prior works. G3 leverages locality-aware iterative partitioning and multi-level pipeline scheduling to exploit acceleration opportunities by distributing balanced workload among workers and overlapping computation with communication in both inter-layer and intra-layer training processes. We show via a prototype implementation and comprehensive experiments that G3 can achieve as much as 2.24x speedup in a 16-node cluster, and better final accuracy over prior works.},
-  series    = {SIGMOD 2023},
+  year      = {2024}
+}
+
+@inproceedings{wang2023tassel,
+  abbr      = {__APNET__},
+  title     = {Accurate and Scalable Rate Limiter for RDMA NICs},
+  author    = {Wang, Zilong and Wan, Xinchen and Zeng, Chaoliang and Chen, Kai},
+  Author+an = {2=highlight},
+  booktitle = {Proceedings of the 7th Asia-Pacific Workshop on Networking},
+  series    = {APNet 2023},
+  pdf       = {https://xcwanAndy.github.io/papers/2023/tassel-apnet23.pdf},
   year      = {2023}
 }
 
+@inproceedings{wan2023g3,
+  abbr      = {__SIGMOD__},
+  title     = {Scalable and Efficient Full-Graph GNN Training for Large Graphs},
+  author    = {Wan, Xinchen and Xu, Kaiqiang and Liao, Xudong and Jin, Yilun and Chen, Kai and Jin, Xin},
+  Author+an = {1=highlight},
+  booktitle = {Proceedings of the ACM on Management of Data},
+  series    = {SIGMOD 2023},
+  pdf       = {https://xcwanAndy.github.io/papers/2023/g3-sigmod23.pdf},
+  selected  = {true},
+  year      = {2023}
+}
+
+@inproceedings{wang2023srnic,
+  abbr      = {___NSDI___},
+  title     = {SRNIC: A scalable architecture for RDMA NICs},
+  author    = {Wang, Zilong and Luo, Layong and Ning, Qingsong and Zeng, Chaoliang and Li, Wenxue and Wan, Xinchen and Xie, Peng and Feng, Tao and Cheng, Ke and Geng, Xiongfei and others},
+  Author+an = {6=highlight},
+  booktitle = {Proceedings of the 20th USENIX Symposium on Networked Systems Design and Implementation},
+  series    = {NSDI 2023},
+  pdf       = {https://xcwanAndy.github.io/papers/2023/srnic-nsdi23.pdf},
+  selected  = {true},
+  year      = {2023}
+}
+
+@inproceedings{wan2022dgs,
+  abbr         = {___ICNP___},
+  title        = {DGS: Communication-Efficient Graph Sampling for Distributed GNN Training},
+  author       = {Wan, Xinchen and Chen, Kai and Zhang, Yiming},
+  Author+an    = {1=highlight},
+  booktitle    = {Proceedings of the 30th IEEE International Conference on Network Protocols},
+  series       = {ICNP 2022},
+  pdf          = {https://xcwanAndy.github.io/papers/2022/dgs-icnp22.pdf},
+  selected     = {true},
+  organization = {IEEE}
+}
+
 @article{xu2021tacc,
-  abbr    = {ArXiv},
+  abbr    = {___ArXiv___},
   title   = {Tacc: A full-stack cloud computing infrastructure for machine learning tasks},
   author  = {Xu, Kaiqiang and Wan, Xinchen and Wang, Hao and Ren, Zhenghang and Liao, Xudong and Sun, Decang and Zeng, Chaoliang and Chen, Kai},
+  Author+an = {2=highlight},
   journal = {arXiv preprint arXiv:2110.01556},
-  pdf     = {tacc-arxiv.pdf},
+  pdf     = {https://xcwanAndy.github.io/papers/2021/tacc-arxiv.pdf},
   year    = {2021}
 }
 
-@inproceedings{spine-conext,
-  abbr      = {CoNEXT},
-  author    = {Tian*, Han and Liao*, Xudong and Zeng, Chaoliang and Zhang, Junxue and Chen, Kai},
-  title     = {Spine: An Efficient DRL-Based Congestion Control with Ultra-Low Overhead},
-  year      = {2022},
-  isbn      = {9781450395083},
-  publisher = {ACM},
-  url       = {https://doi.org/10.1145/3555050.3569125},
-  doi       = {10.1145/3555050.3569125},
-  booktitle = {Proceedings of the 18th International Conference on Emerging Networking EXperiments and Technologies},
-  abstract  = {Previous congestion control (CC) algorithms based on deep reinforcement learning (DRL) directly adjust flow sending rate to respond to dynamic bandwidth change, resulting in high inference overhead. Such overhead may consume considerable CPU resources and hurt the datapath performance. In this paper, we present Spine, a hierarchical congestion control algorithm that fully utilizes the performance gain from deep reinforcement learning but with ultra-low overhead. At its heart, Spine decouples the congestion control task into two subtasks in different timescales and handles them with different components: i) a lightweight CC executor that performs fine-grained control responding to dynamic bandwidth changes, and ii) an RL agent that works at a coarse-grained level that generates control sub-policies for the CC executor. Such two-level control architecture can provide fine-grained DRL-based control with a low model inference overhead. Real-world experiments and emulations show that Spine achieves consistent high performance across various network conditions with an ultra-low control overhead reduced by at least 80\% compared to its DRL-based counterparts, similar to classic CC schemes such as Cubic.},
-  series    = {CoNEXT 2022},
-  pdf       = {spine-conext22.pdf},
-  selected  = {true}
+@article{wang2020domain,
+  abbr    = {___ArXiv___},
+  title   = {Domain-specific communication optimization for distributed DNN training},
+  author  = {Wang, Hao and Chen, Jingrong and Wan, Xinchen and Tian, Han and Xia, Jiacheng and Zeng, Gaoxiong and Wang, Weiyan and Chen, Kai and Bai, Wei and Jiang, Junchen},
+  Author+an = {3=highlight},
+  journal = {arXiv preprint arXiv:2008.08445},
+  pdf     = {http://xcwanAndy.github.io/papers/2020/mlt-arxiv.pdf},
+  year    = {2020}
 }
 
-@article{spine-ton,
-  abbr      = {TON},
-  author    = {Tian*, Han and Liao*, Xudong and Zeng, Chaoliang and Sun, Decang and Zhang, Junxue and Chen, Kai},
-  journal   = {IEEE/ACM Transactions on Networking},
-  title     = {Efficient DRL-Based Congestion Control With Ultra-Low Overhead},
-  year      = {2023},
-  doi       = {10.1109/TNET.2023.3330737},
-  publisher = {IEEE Computer Society},
-  address   = {Los Alamitos, CA, USA},
-  pdf       = {spine-ton.pdf}
+@inproceedings{wan2020rat,
+  abbr      = {__APNET__},
+  title     = {Rat-resilient allreduce tree for distributed machine learning},
+  author    = {Wan, Xinchen and Zhang, Hong and Wang, Hao and Hu, Shuihai and Zhang, Junxue and Chen, Kai},
+  Author+an = {1=highlight},
+  booktitle = {Proceedings of the 4th Asia-Pacific Workshop on Networking},
+  series    = {APNet 2020},
+  pdf       = {http://xcwanAndy.github.io/papers/2020/rat-apnet20.pdf},
+  year      = {2020}
 }
-
-@inproceedings{mocc-eurosys,
-  abbr      = {EuroSys},
-  author    = {Ma, Yiqing and Tian, Han and Liao, Xudong and Zhang, Junxue and Wang, Weiyan and Chen, Kai and Jin, Xin},
-  title     = {Multi-Objective Congestion Control},
-  year      = {2022},
-  publisher = {ACM},
-  url       = {https://doi.org/10.1145/3492321.3519593},
-  doi       = {10.1145/3492321.3519593},
-  booktitle = {Proceedings of the 17th European Conference on Computer Systems},
-  abstract  = {Decades of research on Internet congestion control (CC) have produced a plethora of algorithms that optimize for different performance objectives. Applications face the challenge of choosing the most suitable algorithm based on their needs, and it takes tremendous efforts and expertise to customize CC algorithms when new demands emerge. In this paper, we explore a basic question: can we design a single CC algorithm to satisfy different objectives? We propose MOCC, the first multi-objective congestion control algorithm that attempts to address this question. The core of MOCC is a novel multi-objective reinforcement learning framework for CC to automatically learn the correlations between different application requirements and the corresponding optimal control policies. Under this framework, MOCC further applies transfer learning to transfer the knowledge from past experience to new applications, quickly adapting itself to a new objective even if it is unforeseen. We provide both user-space and kernel-space implementation of MOCC. Real-world Internet experiments and extensive simulations show that MOCC supports well multi-objective, competing or outperforming the best existing CC algorithms on each individual objectives, and quickly adapting to new application objectives in 288 seconds (14.2x faster than prior work) without compromising old ones.},
-  series    = {EuroSys 2022},
-  pdf       = {mocc-eurosys22.pdf},
-  selected  = {true}
-}
-
-@inbook{auto-chapter,
-  abbr      = {Book},
-  author    = {Chen, Li and Lingys, Justinas and Chen, Kai and Liao, Xudong},
-  publisher = {John Wiley & Sons, Ltd},
-  isbn      = {9781119675525},
-  title     = {Datacenter Traffic Optimization with Deep Reinforcement Learning},
-  booktitle = {Communication Networks and Service Management in the Era of Artificial Intelligence and Machine Learning},
-  chapter   = {10},
-  pages     = {223-259},
-  doi       = {https://doi.org/10.1002/9781119675525.ch10},
-  html      = {https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119675525.ch10},
-  year      = {2021},
-  keywords  = {datacenter networks, reinforcement learning, traffic optimization}
-}
-
