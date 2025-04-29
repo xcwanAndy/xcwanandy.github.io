@@ -9,17 +9,18 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D Candidate
+    - title: Ph.D.
       institution: Hong Kong University of Science and Technology
-      year: 2018.09 - now
+      year: 2018.09 - 2025.02
       description:
-        - Major in Computer Science and Engineering, CSE department.
+        - Major in Computer Science, CSE department.
         - Advised by Prof. Kai Chen in iSING lab.
     - title: B.Eng
       institution: Huazhong University of Science and Technology (HUST)
       year: 2014.09 - 2018.06
       description:
         - Major in Computer Science and Technology, School of Computer Science.
+        - Advised by Prof. Song Wu.
 
 - title: Experience
   type: time_table
@@ -31,36 +32,39 @@
         - Advised by <a href="https://luolayong.com/">Dr. Layong Luo</a>
         - Research on the topic of AI interconnect network and Message-level In-Network Computing (MINC) platform.
 
-- title: Teaching Experience
+- title: Teaching Experiences
   type: time_table
   contents:
-    - year: 2019 Fall-2021 Spring
+    - year: 2021 Spring
+      items:
+        - Teaching Assistant Coordinator at HKUST CSE
+    - year: 2020 Fall
+      items:
+        - Teaching Assistant Coordinator at HKUST CSE
+    - year: 2020 Spring
+      items:
+        - Teaching Assistant Coordinator at HKUST CSE
+    - year: 2019 Fall
       items:
         - Teaching Assistant Coordinator at HKUST CSE
     - year: 2019 Spring
       items:
         - Teaching Assistant of COMP1022Q at HKUST
 
-- title: Academic Talks
+- title: Academic Services
   type: time_table
   contents:
-    - year: 2023
+    - year: 2025
       items:
-        - Scalable and Efficient Full-Graph GNN Training for Large Graphs
-        - SIGMOD’23, Seattle, WA, USA, June 2023
+        - IEEE/ACM Transactions on Networking (ToN) reviewer
     - year: 2022
       items:
-        - "DGS: Communication-Efficient Graph Sampling for Distributed GNN Training"
-        - ICNP’22, Online, Nov 2022
-    - year: 2020
-      items:
-        - Rat-resilient allreduce tree for distributed DNN training
-        - APNet’20, Online, Aug 2020
+        - IEEE Transactions on Computers (TC) reviewer
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2018 - now
+    - year: 2018 - 2025
       items:
         - Postgraduate Studentship, HKUST
     - year: 2017

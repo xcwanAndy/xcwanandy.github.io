@@ -3,7 +3,7 @@ layout: about
 title: About
 show_clustrmap: true
 permalink: /
-# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: CSE Ph.D., HKUST, Hong Kong SAR, China
 
 profile:
   align: right
@@ -30,7 +30,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I obtained my Ph.D. degree in Computer Science and Engineering from Hong Kong University of Science and Technology (HKUST) in February 2025, supervised by [Prof. Kai Chen](http://www.cse.ust.hk/~kaichen/). Before that, I received my B.Eng degree in Computer Science from Huazhong University of Science and Technology (HUST) in 2018.
+I obtained my Ph.D. degree in Computer Science and Engineering from Hong Kong University of Science and Technology (HKUST) in February 2025, supervised by [Prof. Kai Chen](http://www.cse.ust.hk/~kaichen/). Before that, I received my B.Eng degree in Computer Science from Huazhong University of Science and Technology (HUST) in 2018, supervised by [Prof. Song Wu](http://cgcl.grid.hust.edu.cn/wusong/).
 
 #### Research Interests
 
