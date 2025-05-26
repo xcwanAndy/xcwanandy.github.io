@@ -15,7 +15,7 @@
       description:
         - Major in Computer Science, CSE department.
         - Advised by Prof. Kai Chen in iSING lab.
-    - title: B.Eng
+    - title: B.Eng.
       institution: Huazhong University of Science and Technology (HUST)
       year: 2014.09 - 2018.06
       description:
@@ -26,7 +26,7 @@
   type: time_table
   contents:
     - title: Research Intern
-      institution: Bytedance, Hardware Acceleration Group
+      institution: ByteDance, Hardware Acceleration Group
       year: 2021.11 - 2023.08
       description:
         - Advised by <a href="https://luolayong.com/">Dr. Layong Luo</a>
