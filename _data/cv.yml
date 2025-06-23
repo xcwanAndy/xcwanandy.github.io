@@ -22,9 +22,14 @@
         - Major in Computer Science and Technology, School of Computer Science.
         - Advised by Prof. Song Wu.
 
-- title: Experience
+- title: Working Experience
   type: time_table
   contents:
+    - title: Network Engineer and Researcher
+      institution: ByteDance, Bellevue, WA
+      year: 2025.06 - Present
+      description:
+        - Research on the topic of high-performance AI network.
     - title: Research Intern
       institution: ByteDance, Hardware Acceleration Group
       year: 2021.11 - 2023.08
