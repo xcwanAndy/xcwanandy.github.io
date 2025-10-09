@@ -3,7 +3,7 @@ layout: about
 title: About
 show_clustrmap: true
 permalink: /
-subtitle: Network Engineer and Researcher, ByteDance, Seattle, WA
+subtitle: Network Engineer and Researcher, ByteDance, Bellevue, WA
 
 profile:
   align: right
